@@ -19,7 +19,7 @@
 	3. The resulting folder structure will look like:
 		<details>
 		<summary>project_folder</summary>
-			&ensp;-boards<br>
+			&ensp;&ensp;&ensp;&ensp;-boards<br>
 			&ensp;-src<br>
 			&ensp;-proj.conf<br>
 			&ensp;-CMakeLists.txt
