@@ -27,7 +27,20 @@
 - Overlay will overwrite the DT file
 - Hence we can change the board configurations locally for each project using this method
 
-## 3. Using Visual Studio Code
+## 3. Kconfig
+- Used to set global build configurations
+e.g:- Select device drivers like gpio drivers,i2c,spi etc
+- Kconfig is accesed using the following code:
+```
+west build -t guiconfig
+```
+
+## 4. Proj.conf
+- Used to set build configurations locally
+- Overwrites Kconfig file for specific projects
+- `proj.conf' will be present in the project folder
+
+## 5. Using Visual Studio Code
 1. Visual Studio Code (VSC) couple with **west** is a powerful tool for code editing
 2. **west** is a command line tool and can be used using VSCs terminal
 3. Inside VSC open a terminal (press `ctrl+shift+\``)
@@ -36,14 +49,30 @@
 6. Now you are good to start using west
 
 ## 4. Useful west commands and their uses
-- Build application
+### Build application
 ```
 west build -p auto -b nrf52840dk_nrf52840 samples/hello_world
 ```
-parameter **-p** can also have values `always` and `never` to rebuild or just build the application respectively (i.e., `west build -p always ...` )\
-parameter **-b** stands for boards\
-Use the following commands to show the list of supported boards
+- Parameter **-p** can also have values `always` and `never` to rebuild or just build the application respectively (i.e., `west build -p always ...` )\
+- Parameter **-b** stands for boards\
+- Use the following commands to show the list of supported boards
 ```
 west boards
 ```
-- 
+### Flash application
+```
+west flash
+```
+### Clean build files
+```
+west build -t clean
+```
+### Open Kconfig
+```
+west build -t guiconfig
+```
+### Open serial monitor
+```
+python -m serial.tools.miniterm --raw COM12 115200
+```
+Type the above code in the same cmd.exe or more preferably split cmd.exe and enter it
