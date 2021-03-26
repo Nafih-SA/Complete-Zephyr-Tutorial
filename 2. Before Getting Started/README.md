@@ -30,10 +30,20 @@
 ## 3. Using Visual Studio Code
 1. Visual Studio Code (VSC) couple with **west** is a powerful tool for code editing
 2. **west** is a command line tool and can be used using VSCs terminal
-3. Inside VSC open a terminal (press ` ctrl+shift+\` `)
+3. Inside VSC open a terminal (press `ctrl+shift+\``)
 4. In terminal "select default shell" as command prompt
-5. Do [step 5 of setting up zephyr](https://github.com/Nafih-SA/Complete-Zephyr-Tutorial/tree/master/1.%20Setting%20Up%20Zephyr#step-4-set-environment-variables) if you havn't set before
+5. Do [step 4 of setting up zephyr](https://github.com/Nafih-SA/Complete-Zephyr-Tutorial/tree/master/1.%20Setting%20Up%20Zephyr#step-4-set-environment-variables) if you havn't set before
 6. Now you are good to start using west
 
-## 4. Kconfig
-- In west
+## 4. Useful west commands and their uses
+- Build application
+```
+west build -p auto -b nrf52840dk_nrf52840 samples/hello_world
+```
+parameter **-p** can also have values `always` and `never` to rebuild or just build the application respectively (i.e., `west build -p always ...` )\
+parameter **-b** stands for boards\
+Use the following commands to show the list of supported boards
+```
+west boards
+```
+- 
