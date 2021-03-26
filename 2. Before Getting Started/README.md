@@ -64,7 +64,7 @@ west boards
 ```
 west flash
 ```
-&ensp;&ensp; In case we are having multiple build files west can be coupled with **-t** parameter to target specific build file
+In case we are having multiple build files west can be coupled with **-t** parameter to target specific build file
 ```
 west flash -t <path\to_build_file>
 ```
@@ -80,6 +80,6 @@ west build -t guiconfig
 ```
 python -m serial.tools.miniterm --raw COM12 115200
 ```
-&ensp;&ensp;Change COM12 to your port and 115200 to your baud rate\
+&ensp;&ensp;Change COM12 to your port and 115200 to your baud rate
 
 &ensp;&ensp;Type the above code in the same cmd.exe or more preferably split cmd.exe and enter it
