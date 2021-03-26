@@ -17,10 +17,12 @@
 	1. Create a `boards` folder inside project folder
 	2. Inside it create `nrf52840dk_nrf52840.overlay` file
 	3. The resulting folder structure will look like:
-		-<project_folder>
-			-boards
-			-src
-			-proj.conf
-			-CMakeLists.txt
+		<details>
+		<summary><project_folder></summary>
+			-boards\
+			-src\
+			-proj.conf\
+			-CMakeLists.txt\
+		</details>
 - Overlay will overwrite the DT file
 - Hence we can change the board configurations locally for each project using this method
