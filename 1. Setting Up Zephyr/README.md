@@ -3,8 +3,8 @@
 	Set up a command-line Zephyr development environment on Windows
 
 ## Step 1: Install Dependencies
-\
-1. Install python:
+ \
+1. Install python:\
 [Cick Here](https://www.python.org/downloads/) to goto python download page. Download and install python.
 
 2. Install west:
@@ -19,9 +19,10 @@ cd zephyrproject
 west update
 ```
 4. Export a Zephyr CMake package. This allows CMake to automatically load boilerplate code required for building Zephyr applications.
-
+```
 west zephyr-export
-Zephyr’s scripts/requirements.txt file declares additional Python dependencies. Install them with pip3.
+```
+5. Zephyr’s scripts/requirements.txt file declares additional Python dependencies. Install them with pip3.
 ```
 pip3 install -r %HOMEPATH%\zephyrproject\zephyr\scripts\requirements.txt
 ```
