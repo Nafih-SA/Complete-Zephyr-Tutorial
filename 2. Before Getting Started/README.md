@@ -49,30 +49,37 @@ west build -t guiconfig
 6. Now you are good to start using west
 
 ## 4. west Commands
-### Build application
+### #Build application
 ```
-west build -p auto -b nrf52840dk_nrf52840 samples/hello_world
+west build -p auto -b nrf52840dk_nrf52840 <path/to_project>
 ```
+&ensp;&ensp;e.g:- `west build -p auto -b nrf52840dk_nrf52840 samples\hello_world`
 - Parameter **-p** can also have values `always` and `never` to rebuild or just build the application respectively (i.e., `west build -p always ...`)
 - Parameter **-b** stands for boards
 - Use the following commands to show the list of supported boards
 ```
 west boards
 ```
-### Flash application
+### #Flash application
 ```
 west flash
 ```
-### Clean build files
+&ensp;&ensp; In case we are having multiple build files west can be coupled with **-t** parameter to target specific build file
+```
+west flash -t <path\to_build_file>
+```
+### #Clean build files
 ```
 west build -t clean
 ```
-### Open Kconfig
+### #Open Kconfig
 ```
 west build -t guiconfig
 ```
-### Open serial monitor
+### #Open serial monitor
 ```
 python -m serial.tools.miniterm --raw COM12 115200
 ```
+&ensp;&ensp;Change COM12 to your port and 115200 to your baud rate\
+
 &ensp;&ensp;Type the above code in the same cmd.exe or more preferably split cmd.exe and enter it
