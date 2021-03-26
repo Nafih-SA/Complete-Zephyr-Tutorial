@@ -19,7 +19,7 @@
 	3. The resulting folder structure will look like:
 		<details>
 		<summary>project_folder</summary>
-			<details><summary>-- boards</summary>--- nrf52840dk_nrf52840.overlay</details>
+			&ensp;&ensp;&ensp;&ensp;-- boards
 			&ensp;&ensp;&ensp;&ensp;-- src<br>
 			&ensp;&ensp;&ensp;&ensp;-- proj.conf<br>
 			&ensp;&ensp;&ensp;&ensp;-- CMakeLists.txt
