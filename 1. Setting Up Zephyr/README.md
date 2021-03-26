@@ -1,23 +1,30 @@
 # Getting Started Guide
 - Follow this guide to:
-	Set up a command-line Zephyr development environment on Ubuntu
+	Set up a command-line Zephyr development environment on Windows
 
 ## Step 1: Install Dependencies
-Use **apt** to install dependencies
+\
+1. Install python:
+[Cick Here](https://www.python.org/downloads/) to goto python download page. Download and install python.
 
-1. Open a terminal and enter the following:
+2. Install west:
 ```
-sudo apt install --no-install-recommends git cmake ninja-build gperf \
-  ccache dfu-util device-tree-compiler wget \
-  python3-dev python3-pip python3-setuptools python3-tk python3-wheel xz-utils file \
-  make gcc gcc-multilib g++-multilib libsdl2-dev
+pip3 install west
 ```
+3. Get the Zephyr source code:
+```
+cd %HOMEPATH%
+west init zephyrproject
+cd zephyrproject
+west update
+```
+4. Export a Zephyr CMake package. This allows CMake to automatically load boilerplate code required for building Zephyr applications.
 
-2. Verify cmake version is above **3.13.1** by entering the following command
+west zephyr-export
+Zephyr’s scripts/requirements.txt file declares additional Python dependencies. Install them with pip3.
 ```
-cmake --version
+pip3 install -r %HOMEPATH%\zephyrproject\zephyr\scripts\requirements.txt
 ```
-If found a lower version update it.
 
 ## Step 2: Get Zephyr and install Python dependencies
 1. Install **west**. west is Zephyrs meta-tool. 
