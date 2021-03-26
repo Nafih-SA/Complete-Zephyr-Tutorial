@@ -11,7 +11,7 @@
 - Editing DT in this way will change the board configuration globally hence directly editing this file is not appreciated
 - Use **overlays** instead
 
-##2. Overlays
+## 2. Overlays
 
 - Overlay can be defined in the following way:
 	1. Create a `boards` folder inside project folder
@@ -19,10 +19,10 @@
 	3. The resulting folder structure will look like:
 		<details>
 		<summary>project_folder</summary>
-			-boards<br>
-			-src<br>
-			-proj.conf<br>
-			-CMakeLists.txt
+			&ensp;-boards<br>
+			&ensp;-src<br>
+			&ensp;-proj.conf<br>
+			&ensp;-CMakeLists.txt
 		</details>
 - Overlay will overwrite the DT file
 - Hence we can change the board configurations locally for each project using this method
