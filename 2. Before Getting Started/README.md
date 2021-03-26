@@ -18,7 +18,7 @@
 	2. Inside it create `nrf52840dk_nrf52840.overlay` file
 	3. The resulting folder structure will look like:
 		<details>
-		<summary>\<project_folder\></summary>
+		<summary>project_folder</summary>
 			-boards<br>
 			-src<br>
 			-proj.conf<br>
