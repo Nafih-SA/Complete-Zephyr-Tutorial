@@ -50,7 +50,7 @@ pip3 install -r %HOMEPATH%\zephyrproject\zephyr\scripts\requirements.txt
 [Click Here](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) to goto the download page.
 4. Install the toolchain in the path `C:\gnu_arm_embedded`
 
-## Step 4 Ste Environment variables
+## Step 4 Set Environment variables
 **IMPORTANT:** This step is to be repeated every time you restart command prompt(cmd.exe window).
 1. In the command prompt window enter the following command
 ```
