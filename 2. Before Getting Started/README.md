@@ -28,7 +28,7 @@
 - Hence we can change the board configurations locally for each project using this method
 
 ## 3. Kconfig
-- Used to set global build configurations
+- Used to set global build configurations\
 e.g:- Select device drivers like gpio drivers,i2c,spi etc
 - Kconfig is accesed using the following code:
 ```
@@ -48,13 +48,13 @@ west build -t guiconfig
 5. Do [step 4 of setting up zephyr](https://github.com/Nafih-SA/Complete-Zephyr-Tutorial/tree/master/1.%20Setting%20Up%20Zephyr#step-4-set-environment-variables) if you havn't set before
 6. Now you are good to start using west
 
-## 4. Useful west commands and their uses
+## 4. west Commands
 ### Build application
 ```
 west build -p auto -b nrf52840dk_nrf52840 samples/hello_world
 ```
-- Parameter **-p** can also have values `always` and `never` to rebuild or just build the application respectively (i.e., `west build -p always ...` )\
-- Parameter **-b** stands for boards\
+- Parameter **-p** can also have values `always` and `never` to rebuild or just build the application respectively (i.e., `west build -p always ...`)
+- Parameter **-b** stands for boards
 - Use the following commands to show the list of supported boards
 ```
 west boards
@@ -75,4 +75,4 @@ west build -t guiconfig
 ```
 python -m serial.tools.miniterm --raw COM12 115200
 ```
-Type the above code in the same cmd.exe or more preferably split cmd.exe and enter it
+&ensp;&ensp;Type the above code in the same cmd.exe or more preferably split cmd.exe and enter it
