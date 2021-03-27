@@ -1,0 +1,55 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks>
+  <BookmarkItem objectName="" line="180" column="-1" path="C:/Users/Vinayan/ncs/v1.3.0/zephyr/boards/arm/nrf52dk_nrf52832/nrf52dk_nrf52832.dts" number="2" extra="sda-pin = &lt;26>;" color="5"/>
+  <BookmarkItem objectName="" line="117" column="-1" path="C:/Users/Vinayan/ncs/v1.3.0/zephyr/boards/arm/nrf52dk_nrf52832/nrf52dk_nrf52832.dts" number="1" extra="&lt;20 0 &amp;gpio0 26 0>, /* D14 */" color="5"/>
+  <BookmarkItem objectName="" line="203" column="-1" path="C:/Users/Vinayan/ncs/v1.3.0/zephyr/boards/arm/nrf52dk_nrf52832/nrf52dk_nrf52832.dts" number="3" extra="mosi-pin = &lt;26>;" color="5"/>
+ </Bookmarks>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="i2c_fujitsu_fram"/>
+  <ProjectSessionItem path="i2c_fujitsu_fram;dts files"/>
+  <ProjectSessionItem path="i2c_fujitsu_fram;build"/>
+  <ProjectSessionItem path="i2c_fujitsu_fram;build;all"/>
+  <ProjectSessionItem path="i2c_fujitsu_fram;build;app/libapp.a"/>
+  <ProjectSessionItem path="i2c_fujitsu_fram;build;app/libapp.a;C_COMPILER__app"/>
+  <ProjectSessionItem path="i2c_fujitsu_fram;build;zephyr/zephyr.elf"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/main.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="53" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../ncs/v1.3.0/zephyr/boards/arm/nrf52dk_nrf52832/nrf52dk_nrf52832.dts" selected="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/lightSensor.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/latchSensor.c" selected="1" top="78" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="zephyr/zephyr.elf(build)" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

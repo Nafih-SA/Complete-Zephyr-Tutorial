@@ -1,0 +1,23 @@
+modules/nordic/CMakeFiles/..__modules__hal__nordic.dir/nrfx/mdk/system_nrf52.c.obj: \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/system_nrf52.c \
+ D:/Projects/Enverse/Enverse/code/enverse/i2c_fujitsu_fram/build_nrf52dk_nrf52832/zephyr/include/generated/autoconf.h \
+ C:/Users/IoT/ncs/v1.3.0/zephyr/include/toolchain/zephyr_stdint.h \
+ C:/Users/IoT/ncs/v1.3.0/zephyr/lib/libc/minimal/include/stdint.h \
+ C:/Users/IoT/ncs/v1.3.0/zephyr/lib/libc/minimal/include/stdbool.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf52.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/cmsis/CMSIS/Core/Include/core_cm4.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/cmsis/CMSIS/Core/Include/cmsis_version.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/cmsis/CMSIS/Core/Include/cmsis_compiler.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/cmsis/CMSIS/Core/Include/cmsis_gcc.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/cmsis/CMSIS/Core/Include/mpu_armv7.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/system_nrf52.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf52_bitfields.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf51_to_nrf52.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf52_name_change.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/compiler_abstraction.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf_erratas.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf51_erratas.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf52_erratas.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h \
+ C:/Users/IoT/ncs/v1.3.0/modules/hal/nordic/nrfx/mdk/nrf91_erratas.h
