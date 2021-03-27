@@ -3,11 +3,11 @@ Application demonstrating the BLE Peripheral role.
 This sample can be found under :zephyr_file:`samples/bluetooth/peripheral` in the Zephyr tree.
 
 ### 1. Macro for declaring 128 bit UUID
-**BT_UUID_INIT_128()**\
+**BT_UUID_INIT_128()**
 
 e.g:- static struct bt_uuid_128 vnd_uuid = BT_UUID_INIT_128(\
 	0xf0, 0xde, 0xbc, 0x9a, 0x78, 0x56, 0x34, 0x12,\
-	0x78, 0x56, 0x34, 0x12, 0x78, 0x56, 0x34, 0x12);\
+	0x78, 0x56, 0x34, 0x12, 0x78, 0x56, 0x34, 0x12);
 
 ### 2. Service Table creation
 ```
@@ -45,7 +45,7 @@ BT_GATT_SERVICE_DEFINE(vnd_svc,							//Macro that define and register a service
 
 ### 3. Advertisement Data
 ```
-static volatile uint8_t mfg_data[] = { 0x4c, 0x00, 0x00, 0x00};
+static volatile uint8_t mfg_data[] = { 0x4c, 0x00, 0x00, 0x00}; // Apple inc
 static const struct bt_data ad[] = {
 	BT_DATA_BYTES(BT_DATA_FLAGS, (BT_LE_AD_GENERAL | BT_LE_AD_NO_BREDR)),
 	BT_DATA_BYTES(BT_DATA_UUID16_ALL,
